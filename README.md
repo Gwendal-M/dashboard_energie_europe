@@ -10,6 +10,7 @@ Quels pays européens sont les plus avancés dans leur transition
 
 ## Architecture du projet
 
+```
 dashboard-energie-europe/
 ├── data/
 │   ├── energy_europe_clean.csv     ← données nettoyées
@@ -29,6 +30,7 @@ dashboard-energie-europe/
 ├── JOURNAL.md                      ← journal de construction et erreurs
 ├── README.md
 └── requirements.txt
+```
 
 ## Stack technique
 
@@ -50,9 +52,10 @@ Pour ce projet : 22 pays européens, 10 indicateurs, 2000-2025.
 
 ## Modèle de données — schéma en étoile
 fact_energy (table de faits)
+```
 ├── dim_country   (pays, région)
 └── dim_year      (année, décennie, période)
-
+```
 La table de faits contient une ligne par pays et par année avec
 les mesures numériques. Les dimensions portent les attributs
 descriptifs. Ce schéma est le standard de la modélisation
