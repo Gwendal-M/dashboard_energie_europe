@@ -133,7 +133,9 @@ Tableau de tous les pays avec statut de transition en
 mise en forme conditionnelle vert/orange/rouge,
 
 ## Lancer le projet
-
+# Si Power BI affiche une erreur de source de données :
+# Transformer les données → Source → remplacer le chemin
+# par le chemin local vers le dossier exports/
 ```bash
 # Cloner le repo
 git clone https://github.com/Gwendal-M/dashboard-energie-europe
